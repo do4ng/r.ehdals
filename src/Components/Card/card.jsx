@@ -1,5 +1,4 @@
 import config from "../../Data/config";
-import { Marked } from "../../Library/markdown";
 import "./style.scss";
 
 export default function Card(props) {

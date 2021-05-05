@@ -1,6 +1,7 @@
-# <center>@r.ehdals</center>  
+
 <div align="center">
 
+# @r.ehdals
 [rehdals.netlify.app](https://rehdals.netlify.app)
 
 </div>

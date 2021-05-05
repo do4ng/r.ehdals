@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+@import '~highlight.js/styles/github.css';
+body {
+    margin: 0;
+    margin-top: 0;
+    background-color: #eeeeee;
+    position: relative;
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
+}
+
+:root {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+code {    
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    font-size: smaller;
+    border-radius: 5px;
+    background-color: #ffe1e194;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 2px 5px 2px 5px;
+}
+.hljs {
+    width: 80%;
+    background: #f1f1f175 !important; 
+}
+#root {
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
+}
+a {
+    text-decoration: underline #ffc7c7 2px ;
+    color:inherit;
+}
+.app {
+    margin-top: 85px;
+}

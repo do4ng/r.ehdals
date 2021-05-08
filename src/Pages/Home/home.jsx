@@ -6,7 +6,7 @@ import Card from "../../Components/Card/card";
 
 export default function App() {
     var doing = config.doing;
-    var result = doing.map((element) => <Tag text={element}></Tag>)
+    var result = doing.map((element) => <Tag size="medium" text={element}></Tag>)
     var resultPost = post.reverse().map((element) => <Card url={element.url} title={element.title} des={element.des} time={element.time}></Card>)
     return (
         <div className="container">

@@ -39,3 +39,13 @@ a {
 .app {
     margin-top: 85px;
 }
+
+body ::-webkit-scrollbar {
+    width: 10px;
+}
+body ::-webkit-scrollbar-thumb {
+    background-color: #b1b1b1b2;
+    border-radius: 13px;
+    background-clip: padding-box;
+    border: 5px solid transparent;
+}

@@ -3,6 +3,9 @@ import { Route, Switch } from 'react-router-dom';
 
 import { Home, User, P } from './Pages/index';
 import NotFound from "./Pages/NotFound/nf";
+
+import { Main } from "./Plugin/core/app";
+
 class App extends Component {
     render() {
         return (
@@ -16,6 +19,10 @@ class App extends Component {
             </div>
         );
     }
+}
+
+window.onload = function() {
+    Main();
 }
 
 export default App;

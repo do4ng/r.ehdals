@@ -15,7 +15,7 @@
         font-weight: lighter;
     }
     h3 {
-        margin-top: 15px;
+        margin-top: 10px;
         margin-left: 15%;
     }
     a {
@@ -26,11 +26,15 @@
         height: 25px;
         border-radius: 55px;
         margin-left: 70%;
+        border: 2px solid rgb(253, 234, 255);
+        transition: all ease 0.2s 0s;
     }
     img:hover {
         width: 25px;
         height: 25px;
         border-radius: 55px;
         margin-left: 70%;
+        border: 2px solid #555;
+        transition: all ease 0.2s 0s;
     }
 }

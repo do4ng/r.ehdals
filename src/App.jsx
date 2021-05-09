@@ -9,7 +9,7 @@ import { Main } from "./Plugin/core/app";
 class App extends Component {
     render() {
         return (
-            <div className="app">
+            <div className="app" id="app">
                 <Switch>
                     <Route exact path="/" component={Home}/>
                     <Route path="/user/:user" component={User}/>

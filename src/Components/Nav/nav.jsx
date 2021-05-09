@@ -3,7 +3,7 @@ import "./style.scss";
 
 export default function Nav() {
     return(
-        <div className="nav">
+        <div className="nav" id="nav">
             <h3><a href="/">@{config.nick}</a><img src={config.img} alt=""></img></h3>
         </div>
     );

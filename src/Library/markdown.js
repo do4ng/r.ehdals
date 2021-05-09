@@ -4,7 +4,7 @@ import hljs from "highlight.js";
 marked.setOptions({
     langPrefix: "hljs language-",
     highlight: function(code) {
-        return hljs.highlightAuto(code, ["html", "javascript", "css", "python", "bash", "c", "json", "markdown", "typescript", "jsx", "tsx", "js", "ts", "md"]).value;
+        return hljs.highlightAuto(code, ["html", "javascript", "css", "python", "bash", "c", "json", "markdown", "typescript", "jsx", "tsx", "js", "ts", "md", "svelte"]).value;
     }
 })
 

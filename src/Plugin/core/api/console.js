@@ -11,6 +11,7 @@ export default class ApiConsole {
      */
     apiClear() {
         console.clear();
+        console.log(`[${this.name}] (Clear Console)`)
     }
     /**
      * Print Message

@@ -1,51 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
 @import '~highlight.js/styles/atom-one-light.css';
 body {
-    margin: 0;
-    margin-top: 0;
-    background-color: #eeeeee;
-    position: relative;
-    min-width: 1024px;
-    min-height: 768px;
-    height: 100%;
+  margin: 0;
+  margin-top: 0;
+  background-color: #eeeeee;
+  position: relative;
+  min-width: 1024px;
+  min-height: 768px;
+  height: 100%;
 }
 
 :root {
-    font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
-code {    
-    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-    font-size: smaller;
-    border-radius: 5px;
-    background-color: #ffe1e194;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding: 2px 5px 2px 5px;
+code {
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-size: smaller;
+  border-radius: 5px;
+  background-color: #ffe1e194;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding: 2px 5px 2px 5px;
 }
 .hljs {
-    width: 80%;
-    background: #f1f1f175 !important; 
+  width: 80%;
+  background: #f1f1f175 !important;
 }
 #root {
-    min-width: 1024px;
-    min-height: 768px;
-    height: 100%;
+  min-width: 1024px;
+  min-height: 768px;
+  height: 100%;
 }
 a {
-    text-decoration: underline #ffc7c7 2px ;
-    color:inherit;
+  text-decoration: underline #ffc7c7 2px;
+  color: inherit;
 }
 .app {
-    margin-top: 85px;
+  margin-top: 85px;
 }
 
 body ::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 body ::-webkit-scrollbar-thumb {
-    background-color: #b1b1b1b2;
-    border-radius: 13px;
-    background-clip: padding-box;
-    border: 5px solid transparent;
+  background-color: #b1b1b1b2;
+  border-radius: 13px;
+  background-clip: padding-box;
+  border: 5px solid transparent;
 }

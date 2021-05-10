@@ -1,12 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter } from 'react-router-dom'
+import ReactDOM from 'react-dom';
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
+import Nav from './Components/Nav/nav';
+import Bottom from './Components/Bottom/bottom';
 
-import App from './App'
-import Nav from './Components/Nav/nav'
-import Bottom from './Components/Bottom/bottom'
-
-import './Style/global.scss'
+import './Style/global.scss';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,4 +16,4 @@ ReactDOM.render(
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
-)
+);

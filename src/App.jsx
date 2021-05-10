@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
-import { Route, Switch } from 'react-router-dom'
+import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
 
-import { Home, User, P } from './Pages/index'
-import NotFound from './Pages/NotFound/nf'
+import { Home, User, P } from './Pages/index';
+import NotFound from './Pages/NotFound/nf';
 
-import { Main } from './Plugin/core/app'
+import { Main } from './Plugin/core/app';
 
 class App extends Component {
   render() {
@@ -17,12 +17,12 @@ class App extends Component {
           <Route component={NotFound} />
         </Switch>
       </div>
-    )
+    );
   }
 }
 
 window.onload = function () {
-  Main()
-}
+  Main();
+};
 
-export default App
+export default App;

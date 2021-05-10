@@ -1,12 +1,13 @@
-import './style.scss'
-import config from '../../Data/config'
-import Tag from '../../Components/Tags/tag'
-import post from '../../Data/post'
-import Card from '../../Components/Card/card'
-
+/* eslint-disable react/jsx-key */
+import './style.scss';
+import config from '../../Data/config';
+import post from '../../Data/post';
+import Card from '../../Components/Card/card';
+import Tag from '../../Components/Tags/tag';
+import React from 'react';
 export default function App() {
-  var doing = config.doing
-  var result = doing.map((element) => <Tag size="medium" text={element}></Tag>)
+  var doing = config.doing;
+  var result = doing.map((element) => <Tag size="medium" text={element}></Tag>);
   var resultPost = post
     .reverse()
     .map((element) => (
@@ -16,7 +17,7 @@ export default function App() {
         des={element.des}
         time={element.time}
       ></Card>
-    ))
+    ));
   return (
     <div className="container">
       <h2># {config.nick}</h2>
@@ -28,5 +29,5 @@ export default function App() {
       <div className="home-tags">{result}</div>
       {resultPost}
     </div>
-  )
+  );
 }

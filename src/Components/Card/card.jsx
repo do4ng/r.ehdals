@@ -1,5 +1,7 @@
-import config from '../../Data/config'
-import './style.scss'
+/* eslint-disable react/prop-types */
+import config from '../../Data/config';
+import './style.scss';
+import React from 'react';
 
 export default function Card(props) {
   return (
@@ -16,5 +18,5 @@ export default function Card(props) {
         </a>
       </div>
     </div>
-  )
+  );
 }

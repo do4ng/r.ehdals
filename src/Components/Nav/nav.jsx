@@ -1,5 +1,6 @@
-import config from '../../Data/config'
-import './style.scss'
+import config from '../../Data/config';
+import './style.scss';
+import React from 'react';
 
 export default function Nav() {
   return (
@@ -9,5 +10,5 @@ export default function Nav() {
         <img src={config.img} alt=""></img>
       </h3>
     </div>
-  )
+  );
 }

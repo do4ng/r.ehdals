@@ -1,4 +1,5 @@
-import './style.scss'
+import './style.scss';
+import React from 'react';
 
 export default function Nav() {
   return (
@@ -7,5 +8,5 @@ export default function Nav() {
         @<a href="https://github.com/kangdongmandoo">r.ehdals</a>
       </span>
     </footer>
-  )
+  );
 }

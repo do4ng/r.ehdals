@@ -17,6 +17,8 @@ export default function Main(page) {
       result = url[4] + ' | ';
     } else if (url[3] === 'user') {
       result = `@${decodeURI(url[4])} | `;
+    } else {
+      result = '404 | ';
     }
     document.title = result + 'r.ehdals';
   } else {

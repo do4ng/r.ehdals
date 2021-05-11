@@ -49,3 +49,6 @@ body ::-webkit-scrollbar-thumb {
   background-clip: padding-box;
   border: 5px solid transparent;
 }
+::selection {
+  background-color: #ffe2e2a9;
+}

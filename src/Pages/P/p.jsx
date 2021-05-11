@@ -22,7 +22,7 @@ export default function App({ match }) {
     if (element.url === match.params.p) {
       result = (
         <div style={PostStyle} className="post">
-          <h1># {element.title}</h1>
+          <h1 id={element.title.replace(' ', '-')}># {element.title}</h1>
           <span className="time">
             {element.time} : {config.nick}
           </span>

@@ -41,3 +41,28 @@ h2 {
 h3 {
   margin-top: 2%;
 }
+img[alt='icon'] {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  transition: all ease 0.2s 0s;
+  background-color: #ffffff;
+}
+img[alt='icon']:active {
+  background-color: #ebebebd7;
+  transition: all ease 0.2s 0s;
+}
+
+img[alt='icon-round'] {
+  vertical-align: middle;
+  border-radius: 25px;
+  width: 30px;
+  height: 30px;
+  transition: all ease 0.2s 0s;
+  background-color: #ffffff;
+}
+img[alt='icon-round']:active {
+  background-color: #ebebebd7;
+  transition: all ease 0.2s 0s;
+}

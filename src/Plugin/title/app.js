@@ -1,4 +1,3 @@
-import config from '../../Data/config';
 import ac from '../core/api/console';
 
 const __name__ = { name: 'plugin-title', 'option-dev': 'plugin-title-dev' };
@@ -17,7 +16,7 @@ export default function Main(page) {
     } else if (url[3] === 'p') {
       result = url[4] + ' | ';
     } else if (url[3] === 'user') {
-      result = `@${config.nick} | `;
+      result = `@${decodeURI(url[4])} | `;
     }
     document.title = result + 'r.ehdals';
   } else {

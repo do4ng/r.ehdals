@@ -2,25 +2,26 @@
 /* eslint-disable no-unused-expressions */
 
 // Plugins
-import consoleClear from '../console/app.js'
+import consoleClear from '../console/app.js';
+import title from '../title/app';
 
-let api = {} // Plugin-Api
+let api = {}; // Plugin-Api
 
 function getHash() {
-  return window.location.hash.replace('plugin')
+  return window.location.hash.replace('plugin');
 }
 
 function getHref() {
   if (!window.location.href.includes('?')) {
-    return {}
+    return {};
   }
-  let href = window.location.href.split('?')[1].split('&')
-  let result = {}
+  let href = window.location.href.split('?')[1].split('&');
+  let result = {};
   href.forEach((element) => {
-    element = element.split('=')
-    result[element[0]] = element[1]
-  })
-  return result
+    element = element.split('=');
+    result[element[0]] = element[1];
+  });
+  return result;
 }
 
 /* INIT */
@@ -31,13 +32,14 @@ function init() {
       hash: getHash(),
       href: getHref(),
     },
-  }
+  };
 }
 
 // Plugin Main
 
 export function PluginMain() {
-  consoleClear(api.location.href)
+  consoleClear(api.location.href);
+  title(api.location.href);
 }
 
 /* ========== */
@@ -45,6 +47,6 @@ export function PluginMain() {
 // Run (Edit Here)
 
 export function Main() {
-  init()
-  PluginMain()
+  init();
+  PluginMain();
 }

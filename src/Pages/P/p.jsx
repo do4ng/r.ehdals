@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-key */
-import List from '../../Data/post';
+import List from '../../Data/post.json';
 import Error from '../../Components/Error/err';
 import { MarkedHTML } from '../../Library/markdown';
 import Tag from '../../Components/Tags/tag';

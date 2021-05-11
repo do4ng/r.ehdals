@@ -7,7 +7,9 @@ export default function Nav() {
     <div className="nav" id="nav">
       <h3>
         <a href="/">@{config.nick}</a>
-        <img src={config.img} alt=""></img>
+        <a href={`/user/${config.nick}`}>
+          <img src={config.img} alt=""></img>
+        </a>
       </h3>
     </div>
   );

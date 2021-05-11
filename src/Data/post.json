@@ -3,7 +3,7 @@
     "url": "welcome",
     "title": "welcome",
     "des": "👋 환영합니다!",
-    "content": "이곳은 저의 개인 블로그입니다.",
+    "content": "이곳은 저의 개인 블로그입니다.  \n## 안녕하세요.\n👋 안녕하세요. 저는 **강동민**이라고 합니다!  \n**kangdongmandoo**, **r.ehdal**라는 닉네임으로 활동하고 있습니다.\n## 무엇을 다루나요?\n🎲 주로 javascript와 관련된 것들을 다룹니다.\n## 웹페이지 정보\n![icon](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)를 통해 제작되었습니다.",
     "tags": ["r.ehdals", "pin"],
     "time": "2021/05/05"
   }

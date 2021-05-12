@@ -30,13 +30,16 @@ export default function App({ match }) {
           <p dangerouslySetInnerHTML={MarkedHTML(element.content)}></p>
           <div className="p-tags">{resultTag}</div>
           <div className="author">
-            <img src={config.img} alt=""></img>
-            By{' '}
+            <div className="image-p">
+              <img src={config.img} alt="" aria-label={config.nick}></img>
+            </div>
+            By
             <strong>
               <a href={'/user/' + config.nick}>{config.nick}</a>
             </strong>
-            <br></br>
-            <span className="des">{config.des}</span>
+            <div>
+              <span className="des">{config.des}</span>
+            </div>
           </div>
         </div>
       );

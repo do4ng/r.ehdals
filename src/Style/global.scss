@@ -52,3 +52,58 @@ body ::-webkit-scrollbar-thumb {
 ::selection {
   background-color: #ffe2e2a9;
 }
+button {
+  margin-left: 40%;
+  margin-top: 5%;
+}
+[aria-label] {
+  position: relative;
+}
+/*
+[aria-label]:before {
+  border-bottom: 0px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #00000000;
+  content: '';
+  top: -15px;
+  position: absolute;
+  transition: all ease 0.1s 0s;
+}
+[aria-label]:hover:before {
+  border-bottom: 0px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  content: '';
+  position: absolute;
+  border-top: 10px solid #f1f1f1;
+  transition: all ease 0.1s 0s;
+}
+*/
+[aria-label]:after {
+  content: attr(aria-label);
+  position: absolute;
+  bottom: 45px;
+  left: 0;
+  z-index: 5000;
+  pointer-events: none;
+  padding: 5px 7px;
+  line-height: 15px;
+  margin-right: 1%;
+  white-space: nowrap;
+  text-decoration: none;
+  text-indent: 0;
+  overflow: visible;
+  font-size: 0.75em;
+  font-weight: 1.4em;
+  color: #00000000;
+  background-color: #00000000;
+  border-radius: 5px;
+  transition: all ease 0.1s 0s;
+}
+
+[aria-label]:hover:after {
+  color: rgb(56, 56, 56);
+  background-color: #f1f1f1;
+  transition: all ease 0.1s 0s;
+}

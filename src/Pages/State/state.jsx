@@ -1,5 +1,5 @@
 import React from 'react';
-import { Marked } from '../../Library/markdown';
+import { Marked, MarkedHTML } from '../../Library/markdown';
 import './style.scss';
 
 let data = {};
@@ -27,6 +27,13 @@ fetch(
       document.getElementById(
         'state-update'
       ).innerHTML = `updated at <code id="state-value">${data['published_deploy']['updated_at']}</code>`;
+    }
+    if (document.getElementById('state-full')) {
+      document.getElementById('state-full').innerHTML = Marked(
+        `\`\`\`json\n// General\n${JSON.stringify(
+          data
+        )}\n// Deploy\n// Loading..\n\`\`\``
+      );
     }
     console.log(data);
 
@@ -83,9 +90,12 @@ export default function App() {
         Updated At : <code>Loading..</code>
       </p>
       <h3>Full Info</h3>
-      <p id="state-full">
-        <code className="hljs">Loading..</code>
-      </p>
+      <p
+        id="state-full"
+        dangerouslySetInnerHTML={MarkedHTML(
+          '```json\n// General\n// Loading..\n// Deploy\n// Loading..\n```'
+        )}
+      ></p>
     </div>
   );
 }

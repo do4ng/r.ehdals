@@ -1,4 +1,5 @@
 import React from 'react';
+import { Marked } from '../../Library/markdown';
 import './style.scss';
 
 let data = {};
@@ -28,11 +29,7 @@ fetch(
       ).innerHTML = `updated at <code id="state-value">${data['published_deploy']['updated_at']}</code>`;
     }
     console.log(data);
-    if (document.getElementById('state-create')) {
-      document.getElementById(
-        'state-create'
-      ).innerHTML = `created at <code id="state-value">${data['published_deploy']['created_at']}</code>`;
-    }
+
     // console.log('[deploy_id] ' + data['deploy_id']);
     fetch(`https://api.netlify.com/api/v1/deploys/${data['deploy_id']}`)
       .then((ress) => {
@@ -44,6 +41,18 @@ fetch(
           document.getElementById(
             'state'
           ).innerHTML = `state : <code id="state-value">${jsonn.state}</code>`;
+        }
+        if (document.getElementById('state-create')) {
+          document.getElementById(
+            'state-create'
+          ).innerHTML = `created at <code id="state-value">${data['published_deploy']['created_at']}</code>`;
+        }
+        if (document.getElementById('state-full')) {
+          document.getElementById('state-full').innerHTML = Marked(
+            `\`\`\`json\n// General\n${JSON.stringify(
+              data
+            )}\n// Deploy\n${JSON.stringify(jsonn)}\n\`\`\``
+          );
         }
       });
   });
@@ -72,6 +81,10 @@ export default function App() {
       </p>
       <p id="state-update">
         Updated At : <code>Loading..</code>
+      </p>
+      <h3>Full Info</h3>
+      <p id="state-full">
+        <code className="hljs">Loading..</code>
       </p>
     </div>
   );

@@ -18,11 +18,12 @@ export default function Main(page) {
     } else if (url[3] === 'user') {
       result = `@${decodeURI(url[4])} | `;
     } else {
-      result = '404 | ';
+      ApiConsole.apiLog('Page Not Defined');
+      result = `${decodeURI(url[3])}  | `;
     }
     document.title = result + 'r.ehdals';
   } else {
     ApiConsole.apiLog('Dev Mode');
   }
-  ApiConsole.apiLog('Window Title Changed!');
+  ApiConsole.apiLog('Window Title Changed');
 }

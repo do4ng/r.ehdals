@@ -8,10 +8,10 @@
     "time": "2021/05/05"
   },
   {
-    "url": "markdown",
-    "title": "Markdown 사용하기",
+    "url": "markdown-1",
+    "title": "Markdown 사용하기(1)",
     "des": "🎈 마크다운 사용하기",
-    "content": "## Markdown 사용하기\n마크다운은 문법이 쉬워 많은 사람들에게 사랑을 받고 있는 마크업 언어입니다.  \n\n### 제목 (Title)\n`<h1>` ~ `<h6>`까지 `#`를 통해 나타낼 수 있습니다.\n```markdown\n# h1tag\n## h2tag\n### h3tag\n#### h4tag\n##### h5tag\n###### h6tag\n```\n### 텍스트 강조\n```markdown\nHello, World!  \n**Hello, World!**  \n_Hello, World!_\n~~Hello, World!~~\n```\nHello, World!  \n**Hello, World!**  \n_Hello, World!_  \n~~Hello, World!~~\n### 인용\n```markdown\n> Hello, World!\n```\n> Hello, World!\n### 링크\n```markdown\n[Google](https://www.google.com/)\n```\n[Google](https://www.google.com/)\n### 이미지\n```markdown\n![Google](https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png)\n```\n\n![Google](https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png)",
+    "content": "## Markdown 사용하기\n마크다운은 문법이 쉬워 많은 사람들에게 사랑을 받고 있는 마크업 언어입니다.  \n\n### 제목 (Title)\n`<h1>` ~ `<h6>`까지 `#`를 통해 나타낼 수 있습니다.\n```markdown\n# h1tag\n## h2tag\n### h3tag\n#### h4tag\n##### h5tag\n###### h6tag\n```\n### 텍스트 강조\n```markdown\nHello, World!  \n**Hello, World!**  \n_Hello, World!_\n~~Hello, World!~~\n```\nHello, World!  \n**Hello, World!**  \n_Hello, World!_  \n~~Hello, World!~~\n### 인용\n```markdown\n> Hello, World!\n```\n> Hello, World!\n### 링크\n```markdown\n[Google](https://www.google.com/)\n```\n[Google](https://www.google.com/)\n### 이미지\n```markdown\n![Google](https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png)\n```\n\n![Google](https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png)  \n  \n### 마치며\n다음시간에는 더 많은 Markdown 문법을 알려드리도록 하겠습니다.",
     "tags": ["markdown"],
     "time": "2021/05/14"
   }

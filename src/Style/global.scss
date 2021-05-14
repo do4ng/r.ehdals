@@ -111,7 +111,6 @@ button {
 blockquote {
   margin: 0;
 }
-
 blockquote p {
   padding: 15px;
   border-radius: 5px;
@@ -127,21 +126,22 @@ blockquote p::before {
 blockquote p::after {
   content: '\201D';
 }
+$top-h: 40px;
 h1 {
-  margin: 0;
+  margin-top: $top-h;
 }
 h2 {
-  margin: 0;
+  margin-top: $top-h;
 }
 h3 {
-  margin: 0;
+  margin-top: $top-h;
 }
 h4 {
-  margin: 0;
+  margin-top: $top-h;
 }
 h5 {
-  margin: 0;
+  margin-top: $top-h;
 }
 h6 {
-  margin: 0;
+  margin-top: $top-h;
 }

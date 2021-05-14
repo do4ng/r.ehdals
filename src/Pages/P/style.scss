@@ -2,15 +2,19 @@ body {
   background-color: #ffffff !important;
 }
 .post {
-  margin-left: 20%;
-  max-width: 60%;
+  width: 900px;
+  margin: 0 auto;
+  letter-spacing: -1px;
+}
+p {
+  margin: 0 0 20px !important;
 }
 hr {
   margin-left: 0px;
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 60%;
-  border: solid 1px #e7e7e7;
+  width: 890px;
+  border: solid 0.5px #e7e7e79a;
 }
 .author {
   margin-top: 10%;
@@ -35,12 +39,6 @@ hr {
   margin-top: 7%;
 }
 
-h2 {
-  margin-top: 7%;
-}
-h3 {
-  margin-top: 2%;
-}
 img[alt='icon'] {
   vertical-align: middle;
   width: 30px;
@@ -77,4 +75,7 @@ img[alt='icon-round'] {
 img[alt='icon-round']:active {
   background-color: #ebebebd7;
   transition: all ease 0.2s 0s;
+}
+.p-author-left {
+  padding-left: 5px;
 }

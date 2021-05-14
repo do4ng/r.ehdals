@@ -38,7 +38,9 @@ hr {
 .p-tags {
   margin-top: 7%;
 }
-
+img {
+  border-radius: 5px;
+}
 img[alt='icon'] {
   vertical-align: middle;
   width: 30px;
@@ -78,4 +80,10 @@ img[alt='icon-round']:active {
 }
 .p-author-left {
   padding-left: 5px;
+}
+img[alt='main'] {
+  width: 650px;
+  height: auto;
+  margin-bottom: 50px;
+  transition: all ease 0.2s 0s;
 }

@@ -5,6 +5,10 @@ var pr = 0;
 var scrollDownNum = 0;
 document.addEventListener('scroll', function () {
   var scrollT = document.documentElement.scrollTop;
+  if (scrollT === 0) {
+    if (!document.getElementById('nav').classList.contains('hide')) return;
+    document.getElementById('nav').classList.remove('hide');
+  }
   if (pr < scrollT) {
     // down
     pr = scrollT;

@@ -8,16 +8,15 @@ import React from 'react';
 export default function App() {
   var doing = config.doing;
   var result = doing.map((element) => <Tag size="medium" text={element}></Tag>);
-  var resultPost = post
-    .reverse()
-    .map((element) => (
-      <Card
-        url={element.url}
-        title={element.title}
-        des={element.des}
-        time={element.time}
-      ></Card>
-    ));
+  var resultPost = post.map((element) => (
+    <Card
+      url={element.url}
+      title={element.title}
+      des={element.des}
+      time={element.time}
+    ></Card>
+  ));
+  resultPost = resultPost.reverse();
   return (
     <div className="container">
       <h2># {config.nick}</h2>
@@ -27,7 +26,7 @@ export default function App() {
         <a href={config.github}>Github</a>
       </div>
       <div className="home-tags">{result}</div>
-      {resultPost}
+      <div className="home-cards">{resultPost}</div>
     </div>
   );
 }

@@ -34,7 +34,7 @@ export default function App({ match }) {
               <img src={config.img} alt="" aria-label={config.nick}></img>
             </div>
             By
-            <strong>
+            <strong className="p-author-left">
               <a href={'/user/' + config.nick}>{config.nick}</a>
             </strong>
             <div>

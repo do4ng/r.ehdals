@@ -14,5 +14,13 @@
     "content": "## 📜 Markdown 사용하기\n마크다운은 문법이 쉬워 많은 사람들에게 사랑을 받고 있는 마크업 언어입니다. \n### 확장자\nMarkdown의 확장자는 `.md`입니다.\n### 제목 (Title)\n`<h1>` ~ `<h6>`까지 `#`를 통해 나타낼 수 있습니다.\n```markdown\n# h1tag\n## h2tag\n### h3tag\n#### h4tag\n##### h5tag\n###### h6tag\n```\n### 텍스트 강조\n**는 `<strong>`태그로 변환됩니다.  \n_는 `<em>`태그로 변환됩니다.  \n~~는 `<del>`태그로 변환됩니다.\n```markdown\nHello, World!  \n**Hello, World!**  \n_Hello, World!_  \n~~Hello, World!~~\n```\nHello, World!  \n**Hello, World!**  \n_Hello, World!_  \n~~Hello, World!~~\n## 인용\n`>`는 `<blockquote>`태그를 변환합니다.\n```markdown\n> Hello, World!\n```\n> Hello, World!\n### 링크\n`<a>`태그로 변환됩니다.\n```markdown\n[구글 홈페이지](https://www.google.com/)에 접속하세요.\n```\n[구글 홈페이지](https://www.google.com/)에 접속하세요.\n### 이미지\n`<img>`태그로 변환됩니다.\n```markdown\n![Google](https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png)\n```\n![Google](https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png)  \n\n## ❗ 알아주세요.\n제가 말하는 **변환된다**라는 표현은 쓰기 편하여 사용한 단어입니다.  \n라이브러리를 사용해야 HTML으로 변환된다는 점 알아주세요.  \n또, `만 쓰면 라이브러리가 자동으로 변환해주는 관계로 마크다운의 코드 문법(```)을  적지 않았습니다.",
     "tags": ["markdown"],
     "time": "2021/05/14"
+  },
+  {
+    "url": "download-project-1",
+    "title": "🎠 어플리케이션 다운로드 프로그램 제작하기 (1)",
+    "des": "(1) - 기획하기",
+    "content": "## 🎠어플리케이션 다운로드 프로그램 제작하기 (1)\n### 📖 서론\nGoogle의 PlayStore, Apple의 AppStore, 조금 다른 영역이긴 하지만 Steam..  \n이처럼 클릭 몇 번으로 어플리케이션을 다운로드하고, 클릭 몇 번으로 어플리케이션을 삭제하는 프로그램을 옛날부터 제작하고 싶어했습니다.  \n그러다 얼마 전 이 사이트를 완성하고 충분히 연습이 되었다고 생각되어 한 번 제작해볼려고 합니다.\n### 🤔 기획\n먼저 기획을 해봅시다.\n#### 📕 사용할 라이브러리\n프로그램 부분은 프론트엔드 라이브러리인 [React](https://reactjs.org/) + JS로 어플리케이션을 제작할 수 있게 도와주는 라이브러리인 [Electron](https://www.electronjs.org/) 조합으로 제작하겠습니다.   \n그리고, 백엔드는 [Express](https://expressjs.com/)를 사용하여 제작하겠습니다.\n#### 🚀 다운로드 방식\n먼저 어떻게 어플리케이션을 다운로드할지 정해야 하는데 저는 조금 비효율적이지만 현재로서는 최선의 방법인 [Git](https://git-scm.com/) 프로그램을 이용하여 저장소를 Clone한 다음 프로그램에서 처리하는 방법을 사용하도록 하겠습니다.\n## 🎬 마치며\n다음시간에는 프로젝트를 생성하고, 본격적으로 제작하는 것을 적도록 하겠습니다.",
+    "tags": ["project", "download"],
+    "time": "2021/05/15"
   }
 ]

@@ -51,4 +51,5 @@ export function Main() {
   init();
   PluginMain();
   $log('Done.', { name: 'plugin-core' });
+  $userName = 'client';
 }

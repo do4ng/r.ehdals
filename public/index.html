@@ -9,13 +9,18 @@
       name="description"
       content="가끔 끄적이는 노트"
     />
+    <script type="text/javascript" src="./@r.ehdals/main.js"></script>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>@r.ehdals</title>
   </head>
   <body>
+    <noscript>
+      Failed
+    </noscript>
     <div id="root">
-      <div style="background-color: #e2e2e2;"></div>
     </div>
-    <script type="text/javascript" src="./@r.ehdals/main.js"></script>
+    <script>
+      $log("Ready", {name: "core"});
+    </script>
 </html>

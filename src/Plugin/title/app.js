@@ -25,5 +25,5 @@ export default function Main(page) {
   } else {
     ApiConsole.apiLog('Dev Mode');
   }
-  ApiConsole.apiLog('Window Title Changed');
+  // ApiConsole.apiLog('Window Title Changed');
 }

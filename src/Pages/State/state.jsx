@@ -37,7 +37,7 @@ fetch(
         )}\n// Deploy\n// Loading..\n\`\`\``
       );
     }
-    console.log(data);
+    // console.log(data);
     const st = Date.now();
     if (document.getElementById('state-time-f')) {
       document.getElementById(
@@ -52,7 +52,7 @@ fetch(
         return ress.json();
       })
       .then((jsonn) => {
-        console.log('[state] ' + jsonn.state);
+        // console.log('[state] ' + jsonn.state);
         if (document.getElementById('state')) {
           document.getElementById(
             'state'

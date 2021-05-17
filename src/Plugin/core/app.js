@@ -47,6 +47,9 @@ export function PluginMain() {
 // Run (Edit Here)
 
 export function Main() {
+  $log('Loading Plugins', { name: 'plugin-core' });
   init();
   PluginMain();
+  $log('Done.', { name: 'plugin-core' });
+  $userName = 'client';
 }

@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import { Home, User, P } from './Pages/index';
+import Community from './Pages/community/community';
 import NotFound from './Pages/NotFound/nf';
 import State from './Pages/State/state';
+import CommunityView from './Pages/community/view/view';
 import Md from './Pages/markdown/md';
 import Welcome from './Pages/welcome/app';
 import { Main } from './Plugin/core/app';
@@ -19,6 +21,8 @@ class App extends Component {
           <Route path="/state" component={State} />
           <Route path="/md" component={Md} />
           <Route path="/welcome" component={Welcome} />
+          <Route exact path="/community" component={Community} />
+          <Route path="/community/view/:post" component={CommunityView} />
           <Route component={NotFound} />
         </Switch>
       </div>

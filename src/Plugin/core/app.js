@@ -5,7 +5,7 @@
 import consoleClear from '../console/app.js';
 import title from '../title/app';
 
-let api = {}; // Plugin-Api
+export let api = {}; // Plugin-Api
 
 function getHash() {
   return window.location.hash.replace('plugin');
@@ -47,9 +47,9 @@ export function PluginMain() {
 // Run (Edit Here)
 
 export function Main() {
-  $log('Loading Plugins', { name: 'plugin-core' });
+  //$log('Loading Plugins', { name: 'plugin-core' });
   init();
   PluginMain();
-  $log('Done.', { name: 'plugin-core' });
-  $userName = 'client';
+  //$log('Done.', { name: 'plugin-core' });
+  // $userName = 'client';
 }

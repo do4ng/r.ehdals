@@ -1,0 +1,129 @@
+.qna-view-container {
+  width: 900px;
+  margin: 0 auto;
+}
+.qna-view-title {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.qna-view-title::before {
+  content: 'Q. ';
+  color: #474747;
+}
+.qna-view-content {
+  color: #313131;
+  margin-top: 20px;
+  white-space: pre-line;
+}
+.qna-a-content {
+  width: 700px;
+  max-width: 700px;
+  margin-right: 15px;
+  height: auto;
+  background-color: #f0f0f070;
+  padding: 10px 25px 10px 25px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 30px #a7a7a750;
+  transition: all ease 0.2s 0s;
+  white-space: pre-line;
+}
+.qna-a-content:hover {
+  width: 700px;
+  margin-right: 15px;
+  height: auto;
+  background-color: #f0f0f070;
+  padding: 10px 25px 10px 25px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 30px #a7a7a750;
+  transition: all ease 0.2s 0s;
+  cursor: pointer;
+  transform: scale(1.015);
+  transition: all ease 0.2s 0s;
+}
+.qna-answer-title {
+  font-weight: bold;
+  color: #aaaaaa;
+  margin-bottom: 20px;
+}
+.qna-view-error {
+  font-weight: bold;
+  font-size: small;
+}
+.answer-input textarea {
+  padding: 2px 5px 2px 5px;
+  margin-top: 15px;
+  width: 700px;
+  height: 200px;
+  font-family: 'Noto Sans KR', sans-serif;
+  border-radius: 5px;
+  border: solid 2px #d8d8d8;
+  font-weight: bold;
+  outline: none;
+  resize: none;
+}
+textarea:focus {
+  outline: none;
+  border: solid 2px #c5ceff;
+}
+input {
+  width: 700px;
+  font-weight: bold;
+  height: auto;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: large;
+  border-radius: 5px;
+  border: solid 2px #d8d8d8;
+  outline: none;
+}
+input:focus {
+  outline: none;
+  border: solid 2px #c5ceff;
+}
+button {
+  background-color: #ffffff;
+  outline: none;
+  border: 1px solid #bbbbbb;
+  padding: 5px 10px 5px 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all ease 0.2s 0s;
+}
+button:hover {
+  background-color: #f7f7f788;
+  cursor: pointer;
+  transition: all ease 0.2s 0s;
+}
+.answer-text {
+  font-size: larger;
+  font-weight: bolder;
+}
+.answer-text-warn {
+  font-size: small;
+  font-weight: bolder;
+  color: #6e6e6e;
+}
+$top-h: 5px;
+h1 {
+  margin-top: $top-h;
+}
+h2 {
+  margin-top: $top-h;
+}
+h3 {
+  margin-top: $top-h;
+}
+h4 {
+  margin-top: $top-h;
+}
+h5 {
+  margin-top: $top-h;
+}
+h6 {
+  margin-top: $top-h;
+}
+ol {
+  margin-top: 0px;
+}

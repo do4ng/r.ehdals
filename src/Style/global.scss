@@ -145,3 +145,7 @@ h5 {
 h6 {
   margin-top: $top-h;
 }
+li::marker {
+  font-size: smaller;
+  color: #727272;
+}

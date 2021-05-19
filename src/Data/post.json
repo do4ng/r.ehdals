@@ -14,5 +14,21 @@
     "content": "## 📜 Markdown 사용하기\n마크다운은 문법이 쉬워 많은 사람들에게 사랑을 받고 있는 마크업 언어입니다. \n### 확장자\nMarkdown의 확장자는 `.md`입니다.\n### 제목 (Title)\n`<h1>` ~ `<h6>`까지 `#`를 통해 나타낼 수 있습니다.\n```markdown\n# h1tag\n## h2tag\n### h3tag\n#### h4tag\n##### h5tag\n###### h6tag\n```\n### 텍스트 강조\n**는 `<strong>`태그로 변환됩니다.  \n_는 `<em>`태그로 변환됩니다.  \n~~는 `<del>`태그로 변환됩니다.\n```markdown\nHello, World!  \n**Hello, World!**  \n_Hello, World!_  \n~~Hello, World!~~\n```\nHello, World!  \n**Hello, World!**  \n_Hello, World!_  \n~~Hello, World!~~\n## 인용\n`>`는 `<blockquote>`태그를 변환합니다.\n```markdown\n> Hello, World!\n```\n> Hello, World!\n### 링크\n`<a>`태그로 변환됩니다.\n```markdown\n[구글 홈페이지](https://www.google.com/)에 접속하세요.\n```\n[구글 홈페이지](https://www.google.com/)에 접속하세요.\n### 이미지\n`<img>`태그로 변환됩니다.\n```markdown\n![Google](https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png)\n```\n![Google](https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png)  \n\n## ❗ 알아주세요.\n제가 말하는 **변환된다**라는 표현은 쓰기 편하여 사용한 단어입니다.  \n라이브러리를 사용해야 HTML으로 변환된다는 점 알아주세요.  \n또, `만 쓰면 라이브러리가 자동으로 변환해주는 관계로 마크다운의 코드 문법(```)을  적지 않았습니다.",
     "tags": ["markdown"],
     "time": "2021/05/14"
+  },
+  {
+    "url": "community-alive",
+    "title": "Community",
+    "des": "💬 Community Alive!",
+    "content": "## 💬 커뮤니티가 개설되었습니다!\n[커뮤니티 바로가기](/community)\n> 프로그래밍에 대한 커뮤니티입니다. 이곳에서는 질문/답변을 자유롭게 하실 수 있습니다.\n### ✨ Features\n+ 별도의 계정이 필요하지 않아도 되는 커뮤니티!\n+ 자유로운 질문과 답변!\n\n### 🎈 Guide\n[Community Rules](/p/community-rules)\n\n### 🎠 Info\n보안이 약해 가끔 초기화됩니다.  \n아직 버그가 많습니다.",
+    "tags": ["community"],
+    "time": "2021/05/19"
+  },
+  {
+    "url": "community-rules",
+    "title": "Community Rules",
+    "des": "📜 커뮤니티 규칙",
+    "content": "## 📜 커뮤니티 규칙\n*별도의 계정 없이 글을 작성할 수 있는 관계로 조금이라도 어길 시, 해당 글이 삭제됩니다.  \n*또, 이곳에서 일어난 사건/사고들은 제가 책임지지 않습니다.  \n### 규칙\n1. 비속어 및 욕설 사용은 금지됩니다.\n2. 음란한 단어 또는 사진 사용은 금지됩니다.\n3. 정치와 관련된 말은 사용하지 말아주세요.\n4. 상대방을 존중해주세요.\n\n### 글 주제\n> _모든 글은 프로그래밍에 관련되야 합니다._\n_대신 프로그래밍에 관련된 소식, 유머 등을 작성하실 수 있습니다._  \n  \n  \n마지막 수정일 : `2021/5/19`",
+    "tags": ["community"],
+    "time": "2021/05/19"
   }
 ]

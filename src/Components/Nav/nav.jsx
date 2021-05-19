@@ -3,6 +3,12 @@ import './style.scss';
 import React from 'react';
 var pr = 0;
 var scrollDownNum = 0;
+var community = <span></span>;
+var gohref = '/';
+if (document.location.href.split('/')[3] === 'community') {
+  community = <span className="nav-community"></span>;
+  gohref = '/community';
+}
 document.addEventListener('scroll', function () {
   var scrollT = document.documentElement.scrollTop;
   if (scrollT === 0) {
@@ -33,7 +39,10 @@ export default function Nav() {
   return (
     <div className="nav" id="nav">
       <h3>
-        <a href="/">@{config.nick}</a>
+        <a href={gohref}>
+          @{config.nick}
+          {community}
+        </a>
       </h3>
       <div className="nav-img-container">
         <a href={`/user/${config.nick}`}>

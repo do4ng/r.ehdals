@@ -12,7 +12,7 @@
 
 ## 사용된 모듈
 
-- react
+- react (reactDOM)
 - marked
 - highlight.js
 

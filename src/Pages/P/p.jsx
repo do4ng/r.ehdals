@@ -8,6 +8,13 @@ import config from '../../Data/config';
 import React from 'react';
 const PostStyle = {};
 
+function addHr(content) {
+  console.log(content);
+  content = content.replaceAll('</h2>', '</h2><hr />');
+  console.log(content);
+  return { __html: content };
+}
+
 export default function App({ match }) {
   var result = (
     <Error
@@ -27,7 +34,13 @@ export default function App({ match }) {
             {element.time} : {config.nick}
           </span>
           <hr></hr>
-          <p dangerouslySetInnerHTML={MarkedHTML(element.content)}></p>
+          <div id="post-main-content">
+            <p
+              dangerouslySetInnerHTML={addHr(
+                MarkedHTML(element.content).__html
+              )}
+            ></p>
+          </div>
           <div className="p-tags">{resultTag}</div>
           <div className="author">
             <div className="image-p">

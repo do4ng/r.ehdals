@@ -10,7 +10,9 @@ const PostStyle = {};
 
 function addHr(content) {
   console.log(content);
-  content = content.replaceAll('</h2>', '</h2><hr />');
+  content = content
+    .replaceAll('</h2>', '</h2><hr />')
+    .replaceAll('</h3>', '</h3><hr />');
   console.log(content);
   return { __html: content };
 }

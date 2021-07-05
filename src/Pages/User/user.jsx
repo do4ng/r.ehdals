@@ -9,7 +9,10 @@ export default function App({ match }) {
       content="URL이 맞는지 다시 확인해주세요."
     ></Error>
   );
-  if (config.nick === match.params.user) {
+  if (
+    config.nick === match.params.user ||
+    `@${config.nick}` === match.params.user
+  ) {
     result = (
       <>
         <div className="author-s">

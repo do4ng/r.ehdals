@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
-@import '~highlight.js/styles/atom-one-dark-reasonable.css';
+@import '~highlight.js/styles/atom-one-dark.css';
 body {
   margin: 0;
   margin-top: 0;
@@ -19,13 +19,14 @@ code {
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
   font-size: smaller;
   border-radius: 5px;
+  font-weight: lighter;
   background-color: #ffe1e194;
   padding-left: 5px;
   padding-right: 5px;
   padding: 2px 5px 2px 5px;
+  max-width: none !important;
 }
 .hljs {
-  width: 80%;
   padding: 15px 15px;
 }
 #root {

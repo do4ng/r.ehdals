@@ -1,10 +1,13 @@
 body {
-  background-color: #ffffff !important;
+  background-color: #f7f7f7 !important;
 }
 .post {
-  width: 900px;
+  background-color: #ffffff;
+  width: 820px;
+  padding: 35px 40px;
   margin: 0 auto;
   letter-spacing: -1px;
+  border-radius: 5px;
 }
 p {
   margin: 0 0 20px !important;
@@ -13,7 +16,7 @@ hr {
   margin-left: 0px;
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 890px;
+  width: 790px;
   border: solid 0.5px #e7e7e79a;
 }
 .author {

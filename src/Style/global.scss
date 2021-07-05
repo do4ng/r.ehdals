@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
 @import '~highlight.js/styles/atom-one-light.css';
+html,
+body {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   margin-top: 0;
@@ -148,4 +152,27 @@ h6 {
 li::marker {
   font-size: smaller;
   color: #727272;
+}
+
+// TABLE
+
+table {
+  width: 100%;
+  border: 1px solid #dbdbdb;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #dbdbdb;
+  font-size: 15px;
+}
+
+th {
+  background-color: #f1f1f1;
+  color: #3a3a3a;
+}
+
+td {
+  color: #3a3a3a;
+  padding: 2px 15px;
 }

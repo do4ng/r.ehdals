@@ -6,11 +6,20 @@ body {
   width: 820px;
   padding: 35px 40px;
   margin: 0 auto;
-  letter-spacing: -1px;
+  letter-spacing: -0.05rem;
   border-radius: 5px;
 }
 p {
   margin: 0 0 20px !important;
+}
+#post-main-content {
+  a {
+    color: #80a2ff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }
 hr {
   margin-left: 0px;
@@ -89,4 +98,7 @@ img[alt='main'] {
   height: auto;
   margin-bottom: 50px;
   transition: all ease 0.2s 0s;
+}
+#post-main-content {
+  margin-top: 5px;
 }

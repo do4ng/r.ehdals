@@ -103,3 +103,21 @@ img[alt='main'] {
 #post-main-content {
   margin-top: 5px;
 }
+.h-sharp {
+  padding-right: 5px;
+  color: #ffffff !important;
+  transition: all ease 0.2s 0s;
+}
+h2:hover .h-sharp {
+  color: #ffb6b6 !important;
+  transition: all ease 0.2s 0s;
+}
+
+h3:hover .h-sharp {
+  color: #ffb6b6 !important;
+  transition: all ease 0.2s 0s;
+}
+h4:hover .h-sharp {
+  color: #ffb6b6 !important;
+  transition: all ease 0.2s 0s;
+}

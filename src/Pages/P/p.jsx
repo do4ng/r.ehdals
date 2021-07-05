@@ -35,7 +35,7 @@ export default function App({ match }) {
             </div>
             By
             <strong className="p-author-left">
-              <a href={'/user/' + config.nick}>{config.nick}</a>
+              <a href={'/u/@' + config.nick}>{config.nick}</a>
             </strong>
             <div>
               <span className="des">{config.des}</span>

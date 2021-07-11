@@ -12,14 +12,18 @@ export default function Main(page) {
     var result;
     var url = document.location.href.split('/');
     if (url[3] === '') {
-      result = 'Home | ';
+      result = 'Home - ';
     } else if (url[3] === 'p') {
-      result = url[4] + ' | ';
+      let p = url[4];
+      if (p.indexOf('#') > 0) {
+        p = url[4].substring(0, url[4].indexOf('#'));
+      }
+      result = p + ' - ';
     } else if (url[3] === 'user') {
-      result = `@${decodeURI(url[4])} | `;
+      result = `@${decodeURI(url[4])} - `;
     } else {
       ApiConsole.apiLog('Page Not Defined');
-      result = `${decodeURI(url[3])}  | `;
+      result = `${decodeURI(url[3])} - `;
     }
     document.title = result + 'r.ehdals';
   } else {

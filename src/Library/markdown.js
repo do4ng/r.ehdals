@@ -6,7 +6,7 @@ const renderer = new marked.Renderer();
 renderer.heading = function (text, level, id) {
   const v = id.toLowerCase().replaceAll(' ', '-');
   const r = `<h${level} id="${v}"><a href="#${v}" style="display: inline;" class="h-sharp">#</a>${text}</h${level}>\n`;
-  console.log(r);
+
   return r;
 };
 
@@ -31,6 +31,7 @@ marked.setOptions({
       'ts',
       'md',
       'svelte',
+      'scss',
     ]).value;
   },
 });

@@ -9,6 +9,7 @@
 - react (reactDOM)
 - marked
 - hljs
+- node-sass
 - eslint, prettier (vscode)
 
 ### Backend

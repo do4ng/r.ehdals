@@ -1,5 +1,4 @@
 import React from 'react';
-import { MarkedHTML } from '../../Library/markdown';
 
 import './style.scss';
 export default class App extends React.Component {

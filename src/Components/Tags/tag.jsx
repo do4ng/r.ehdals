@@ -6,9 +6,9 @@ export default function Tag(props) {
   return (
     <span
       className={'tag tag-size-' + props.size}
-      aria-label={`tag - '#${props.text}'`}
+      aria-label={`'#${props.text}'`}
     >
-      #{props.text}
+      {props.text}
     </span>
   );
 }

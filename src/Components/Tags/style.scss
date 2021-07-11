@@ -1,21 +1,15 @@
 .tag {
-  background-color: #f4ecff;
-  color: #9268a7;
-  border-radius: 7px;
-  padding: 4px 7px 4px 7px;
+  border: solid 1px #bbbbbb;
+  color: #494949;
+  border-radius: 14px;
+  padding: 4px 12px;
   font-weight: bolder;
   cursor: default;
   margin-left: 7px;
   transition: all ease 0.2s 0s;
 }
 .tag:hover {
-  background-color: #efe4ff;
-  color: #8a50a7;
-  border-radius: 7px;
-  padding: 4px 7px 4px 7px;
-  font-weight: bolder;
-  cursor: default;
-  margin-left: 7px;
+  background-color: #ebebeb;
   transition: all ease 0.2s 0s;
 }
 .tag-size-large {

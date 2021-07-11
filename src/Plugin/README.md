@@ -6,14 +6,14 @@
 2. 애라 코드를 제작한 파일에 복사/붙여넣기합니다.
 
 ```js
-import ac from '../core/api/console'
+import ac from '../core/api/console';
 
-const __name__ = { name: 'plugin-{YOUR_PLUGIN_NAME}' }
+const __name__ = { name: 'plugin-{YOUR_PLUGIN_NAME}' };
 
-const ApiConsole = new ac(__name__.name)
+const ApiConsole = new ac(__name__.name);
 
 export default function Main(props) {
-  ApiConsole.apiLog('Hello, World!')
+  ApiConsole.apiLog('Hello, World!');
 }
 ```
 
@@ -34,3 +34,7 @@ export default function Main(props) {
 **ConsoleApi** : 콘솔 API입니다.  
 개발자 모드에서 특정 플러그인을 더 쉽게 구분할 수 있게 도와줍니다.  
 [ConsoleApi](./core/api/console.js)
+
+## Developer
+
+[@kangdongmandoo](https://github.com/kangdongmandoo)

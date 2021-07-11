@@ -12,7 +12,7 @@ export default class App extends React.Component {
     this.setState({ value: event.target.value });
   }
   render() {
-    return (
+    /*return (
       <div className="md-left">
         <textarea
           rows="10"
@@ -35,6 +35,7 @@ export default class App extends React.Component {
           ></span>
         </div>
       </div>
-    );
+    );*/
+    return <div>페이지 지원 중단됨.</div>;
   }
 }

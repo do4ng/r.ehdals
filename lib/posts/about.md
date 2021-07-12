@@ -22,4 +22,8 @@
 
 ## 사이트 상태 보기
 
-이 사이트의 상태를 볼 수 있습니다. [바로가기](/state) [Github](https://github.com/kangdongmandoo/r.ehdals)
+이 사이트의 상태를 볼 수 있습니다. [바로가기](/state)
+
+## 저장소
+
+[깃허브](https://github.com/kangdongmandoo/r.ehdals)에서 소스코드를 확인할 수 있습니다.

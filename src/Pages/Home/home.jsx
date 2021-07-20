@@ -21,7 +21,7 @@ export default function App() {
     <div className="container">
       <div className="home-left">
         <div>
-          <h2># {config.nick}</h2>
+          <h2>@ {config.nick}</h2>
           <div>{config.des}</div>
         </div>
         <div className="sns">

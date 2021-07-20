@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
 @import '~highlight.js/styles/atom-one-light.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 html,
 body {
   scroll-behavior: smooth;
@@ -16,7 +17,7 @@ body {
 }
 
 :root {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Inter', 'Noto Sans KR', sans-serif;
 }
 code {
   font-family: Consolas, 'Source Code Pro', Menlo, Monaco, 'Courier New',
@@ -35,8 +36,6 @@ code {
   font-weight: 100;
 }
 #root {
-  min-width: 1024px;
-  min-height: 768px;
   height: 100%;
   color: #363636;
 }

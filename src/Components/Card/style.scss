@@ -1,28 +1,31 @@
 .card {
-  width: 70%;
-  height: 90px;
-  background-color: #f0f0f070;
+  width: 460px;
+  height: 120px;
+  background-color: #ffffff70;
   padding: 5px 10px 5px 10px;
   margin-bottom: 30px;
   border-radius: 15px;
-  box-shadow: 0px 5px 30px #b2a9b85d;
+  box-shadow: 0px 1px 5px #b2a9b85d;
   transition: all ease 0.2s 0s;
 }
 .card:hover {
-  box-shadow: 5px 5px 20px #af9eb85d;
+  box-shadow: 0px 1px 10px #b2a9b85d;
   transition: all ease 0.2s 0s;
   transform: translate(0px, -5px);
   cursor: pointer;
 }
 .card-text {
   margin-left: 5%;
+  padding-top: 8px;
 }
 .des {
   font-size: small;
+  padding-top: 15px;
 }
 .au {
   color: #9c9c9c;
   font-size: smaller;
+  margin-top: 10px;
 }
 .title-card {
   margin-top: 5px;

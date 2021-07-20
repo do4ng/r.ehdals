@@ -20,8 +20,10 @@ export default function App() {
   return (
     <div className="container">
       <div className="home-left">
-        <h2># {config.nick}</h2>
-        {config.des}
+        <div>
+          <h2># {config.nick}</h2>
+          <div>{config.des}</div>
+        </div>
         <div className="sns">
           <a href={config.instagram}>Instagram</a>{' '}
           <a href={config.github}>Github</a>

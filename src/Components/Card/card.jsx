@@ -9,7 +9,9 @@ export default function Card(props) {
       <div className="card-text">
         <a href={'/p/' + props.url}>
           <div className="title-card">{props.title}</div>
-          <span className="des">{props.des}</span>
+          <div className="des">
+            <span>{props.des}</span>
+          </div>
           <div className="au">
             <span>
               {config.nick} | {props.time}

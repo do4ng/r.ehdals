@@ -3,15 +3,26 @@
 }
 .container {
   margin-top: 5%;
-  margin-left: 20%;
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
 }
 .home-tags {
   margin-top: 15px;
+  min-width: 150px;
 }
 .sns {
   font-weight: bold;
   font-size: small;
 }
 .home-cards {
-  margin-top: 5%;
+  max-width: 990px;
+  margin: 7% auto 0;
+}
+.home-left {
+  width: auto;
+  margin-top: 55px;
+}
+.post-length {
+  margin-bottom: 5%;
 }

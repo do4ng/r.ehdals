@@ -19,14 +19,23 @@ export default function App() {
   resultPost = resultPost.reverse();
   return (
     <div className="container">
-      <h2># {config.nick}</h2>
-      {config.des}
-      <div className="sns">
-        <a href={config.instagram}>Instagram</a>{' '}
-        <a href={config.github}>Github</a>
+      <div className="home-left">
+        <h2># {config.nick}</h2>
+        {config.des}
+        <div className="sns">
+          <a href={config.instagram}>Instagram</a>{' '}
+          <a href={config.github}>Github</a>
+        </div>
+        <div className="home-tags">{result}</div>
       </div>
-      <div className="home-tags">{result}</div>
-      <div className="home-cards">{resultPost}</div>
+      <div className="home-cards">
+        <div className="post-length">
+          <span>
+            <b>{`${resultPost.length}`}</b> Posts
+          </span>
+        </div>
+        <div>{resultPost}</div>
+      </div>
     </div>
   );
 }

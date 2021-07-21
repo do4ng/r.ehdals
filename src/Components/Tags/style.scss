@@ -8,7 +8,7 @@
   margin-left: 7px;
   transition: all ease 0.2s 0s;
 }
-@media screen and (max-width: 1950px) {
+@media screen and (max-width: 1480px) {
   .tag {
     display: none;
   }
@@ -18,11 +18,11 @@
   transition: all ease 0.2s 0s;
 }
 .tag-size-large {
-  font-size: large;
-}
-.tag-size-medium {
   font-size: medium;
 }
-.tag-size-small {
+.tag-size-medium {
   font-size: small;
+}
+.tag-size-small {
+  font-size: smaller;
 }

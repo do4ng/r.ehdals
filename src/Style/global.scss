@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
-@import '~highlight.js/styles/atom-one-light.css';
+@import '~highlight.js/styles/atom-one-dark.css';
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 html,
 body {
@@ -32,8 +32,11 @@ code {
   max-width: none !important;
 }
 .hljs {
-  padding: 15px 15px;
+  padding: 20px !important;
   font-weight: 100;
+}
+pre {
+  padding: 5px;
 }
 #root {
   height: 100%;

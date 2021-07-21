@@ -12,9 +12,7 @@
 
 ## 사용된 모듈
 
-- react (reactDOM)
-- marked
-- highlight.js
+[이곳에서](https://rehdals.netlify.app/p/about#%EC%82%AC%EC%9A%A9%EB%90%9C-%EB%AA%A8%EB%93%88) 사용된 모듈을 볼 수 있습니다.
 
 ## License
 

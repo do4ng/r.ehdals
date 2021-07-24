@@ -3,11 +3,8 @@ import './style.scss';
 import config from '../../Data/config';
 import post from '../../Data/post';
 import Card from '../../Components/Card/card';
-import Tag from '../../Components/Tags/tag';
 import React from 'react';
 export default function App() {
-  var doing = config.doing;
-  var result = doing.map((element) => <Tag size="medium" text={element}></Tag>);
   var resultPost = post.map((element) => (
     <Card
       url={element.url}
@@ -21,14 +18,9 @@ export default function App() {
     <div className="container">
       <div className="home-left">
         <div>
-          <h2>@ {config.nick}</h2>
+          <h2>{config.nick}</h2>
           <div>{config.des}</div>
         </div>
-        <div className="sns">
-          <a href={config.instagram}>Instagram</a>{' '}
-          <a href={config.github}>Github</a>
-        </div>
-        <div className="home-tags">{result}</div>
       </div>
       <div className="home-cards">
         <div className="post-length">

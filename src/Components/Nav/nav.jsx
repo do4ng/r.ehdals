@@ -26,7 +26,7 @@ document.addEventListener('scroll', function () {
     pr = scrollT;
     // console.log(scrollDownNum);
     if (!document.getElementById('nav').classList.contains('hide')) return;
-    if (scrollDownNum < 20) {
+    if (scrollDownNum < 5) {
       scrollDownNum = scrollDownNum + 1;
       return;
     }
@@ -40,7 +40,7 @@ export default function Nav() {
     <div className="nav" id="nav">
       <h3>
         <a href={gohref}>
-          @{config.nick}
+          @ r.ehdals
           {community}
         </a>
       </h3>

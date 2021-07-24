@@ -53,7 +53,7 @@ client.on('message', (msg) => {
 client.login('YOUR_TOKEN_HERE');
 ```
 
-이제 실행해주세요!
+실행해주세요!
 
 ```bash
 yarn start

@@ -7,10 +7,8 @@
   cursor: default;
   margin-left: 7px;
   transition: all ease 0.2s 0s;
-}
-@media screen and (max-width: 1480px) {
-  .tag {
-    display: none;
+  a {
+    text-decoration: none !important;
   }
 }
 .tag:hover {
@@ -21,8 +19,8 @@
   font-size: medium;
 }
 .tag-size-medium {
-  font-size: small;
+  font-size: smaller;
 }
 .tag-size-small {
-  font-size: smaller;
+  font-size: small;
 }

@@ -16,13 +16,26 @@
   font-size: small;
 }
 .home-cards {
-  max-width: 990px;
-  margin: 7%;
+  margin: 35px 7%;
+  width: 100%;
 }
 .home-left {
-  width: 20%;
-  margin-top: 55px;
+  width: 30%;
+  margin-top: 35px;
 }
 .post-length {
-  margin-bottom: 5%;
+  margin-bottom: 25px;
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 1160px) {
+  .home-left {
+    display: none;
+  }
+  .container {
+    margin: 0;
+  }
+  .home-cards {
+    margin-right: 0;
+  }
 }

@@ -29,11 +29,13 @@ export default function App({ match }) {
     if (element.url === match.params.p) {
       result = (
         <div style={PostStyle} className="post">
-          <h1 id={element.title.replace(' ', '-')}># {element.title}</h1>
-          <span className="time">
-            {element.time} : {config.nick}
-          </span>
-          <hr></hr>
+          <div>
+            <h1 id={element.title.replace(' ', '-')}># {element.title}</h1>
+            <span className="time">
+              {element.time} : {config.nick}
+            </span>
+            <hr></hr>
+          </div>
           <div id="post-main-content">
             <p
               dangerouslySetInnerHTML={addHr(
@@ -41,17 +43,19 @@ export default function App({ match }) {
               )}
             ></p>
           </div>
-          <div className="p-tags">{resultTag}</div>
-          <div className="author">
-            <div className="image-p">
-              <img src={config.img} alt="" aria-label={config.nick}></img>
-            </div>
-            By
-            <strong className="p-author-left">
-              <a href={'/u/@' + config.nick}>{config.nick}</a>
-            </strong>
-            <div>
-              <span className="des">{config.des}</span>
+          <div>
+            <div className="p-tags">{resultTag}</div>
+            <div className="author">
+              <div className="image-p">
+                <img src={config.img} alt="" aria-label={config.nick}></img>
+              </div>
+              By
+              <strong className="p-author-left">
+                <a href={'/u/@' + config.nick}>{config.nick}</a>
+              </strong>
+              <div>
+                <span className="des">{config.des}</span>
+              </div>
             </div>
           </div>
         </div>

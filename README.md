@@ -6,6 +6,9 @@
 
 </div>
 
+## 홈페이지 이동 
+홈페이지가 이동되었습니다. - [자세히 보기](https://rehdals.netlify.app/p/site-move)
+
 ## 상태
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f44e357a-0989-41b3-9bdc-f73f37499d6d/deploy-status)](https://app.netlify.com/sites/rehdals/deploys) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkangdongmandoo%2Fr.ehdals.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkangdongmandoo%2Fr.ehdals?ref=badge_shield)
